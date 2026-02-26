@@ -23,7 +23,7 @@ const Education = () => {
                 <div className="relative md:w-1/4">
 
                     {/* Vertical Line */}
-                    <div className="hidden md:block absolute left-4 top-0 h-30 w-[1px] bg-gray-600"></div>
+                    <div className="hidden md:block absolute left-4 top-0 h-30 w-px bg-gray-600"></div>
 
                     <div className="flex md:flex-col gap-6 md:gap-8">
 
