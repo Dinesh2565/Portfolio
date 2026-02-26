@@ -9,12 +9,10 @@ function App() {
   return (<BrowserRouter>
     <div className="min-h-screen bg-black text-white relative ">
       <NavBar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Skills />} />
-        <Route path="/about" element={<Education />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <Home />
+      <Skills />
+      <Education />
+      <Contact />
     </div>
   </BrowserRouter>
   );
